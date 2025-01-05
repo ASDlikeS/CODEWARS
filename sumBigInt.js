@@ -1,7 +1,6 @@
-function add(a, b) {
-  //WE CANT USE BIGINT OMG!!!!!----
-  //Alr it's ok for me, so now i'll try to sum last indexes from string and return all string (i won't convert a string to int, this useless);
-
+//Holy CRAP WE CANT USE BIGINT!!!!!----
+//Alr it's ok for me, so now i'll try to sum last indexes from string and return all string (i won't convert a string to int, this's useless);
+export default (a, b) => {
   result = ``;
   let carry = 0;
   let fir = a.length - 1;
@@ -18,4 +17,4 @@ function add(a, b) {
     result = (sum % 10) + result;
   }
   return result;
-}
+};

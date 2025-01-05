@@ -1,4 +1,4 @@
-function encrypt(text) {
+export default (text) => {
   let encryptText = "";
   for (let i = 0; i < text.length; i++) {
     if (i % 2 == 0) {
@@ -9,6 +9,4 @@ function encrypt(text) {
   }
   encryptText = encryptText.replace("undefined", text[text.length - 1]);
   return encryptText;
-}
-
-console.log(encrypt("abcd"));
+};

@@ -1,3 +1,0 @@
-function generateBC(url, separator) {
-    
-}
